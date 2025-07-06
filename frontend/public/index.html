@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lead Scoring App</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Add custom CSS directly -->
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        background-color: #f9fafb;
+        color: #333;
+      }
+
+      header {
+        text-align: center;
+        padding: 60px 20px 30px;
+        background: linear-gradient(135deg, #4f46e5, #06b6d4);
+        color: white;
+        animation: fadeInSlide 1.2s ease-out forwards;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        margin: 0;
+        line-height: 1.2;
+        background: linear-gradient(to right, #ffffff, #a5f3fc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: bounce 2s infinite alternate;
+      }
+
+      header p {
+        margin-top: 15px;
+        font-size: 1.1rem;
+        opacity: 0.9;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+        color: #777;
+        border-top: 1px solid #eee;
+        background-color: #fff;
+        margin-top: 40px;
+      }
+
+      .fade-in {
+        animation: fadeIn 1.5s ease-in;
+      }
+
+      @keyframes fadeInSlide {
+        0% {
+          opacity: 0;
+          transform: translateY(-30px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes bounce {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-8px);
+        }
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Lead Scoring & Segmentation Dashboard</h1>
+      <p>Powered by AI & Machine Learning to boost your conversions 🚀</p>
+    </header>
+
+    <div id="root" class="fade-in"></div>
+
+    <footer>
+      &copy; 2025 Lead Scoring App. All rights reserved.
+    </footer>
+  </body>
+</html>

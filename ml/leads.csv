@@ -1,0 +1,26 @@
+name,email,company,activity_count,email_opens,website_visits
+Alice Johnson,alice@example.com,TechNova,1,0,0
+Bob Smith,bob@startup.com,InnoSoft,2,1,1
+Charlie Ray,charlie@futuretech.io,FutureTech,10,7,5
+Diana Prince,diana@themyscira.org,Amazon Inc,9,6,4
+Evan Miles,evan@datasprint.ai,DataSprint,0,0,0
+Fiona Scott,fiona@webzen.com,WebZen,1,0,1
+George Blake,george@nextgen.io,NextGen,4,2,1
+Hannah Lee,hannah@glowcorp.com,GlowCorp,8,4,3
+Isaac Dean,isaac@alphaware.net,AlphaWare,3,1,1
+Jade Chan,jade@cryptix.org,Cryptix,10,8,5
+Kevin Ford,kevin@greengrids.com,GreenGrids,2,1,0
+Lena Zhou,lena@astrolytics.io,Astrolytics,1,0,0
+Michael Trent,michael@zentech.com,Zentech,7,4,2
+Nina Hart,nina@medicloud.org,MediCloud,0,0,0
+Oscar Wilde,oscar@artlabs.com,ArtLabs,4,3,1
+Priya Das,priya@codecanvas.dev,CodeCanvas,9,6,4
+Quincy Bell,quincy@cyberflux.io,CyberFlux,1,1,0
+Ravi Iyer,ravi@aether.co,Aether,6,4,2
+Sara Kim,sara@neuronet.org,NeuroNet,2,1,1
+Tom Liu,tom@roboticsai.com,RoboticsAI,8,5,4
+Uma Patel,uma@softlayer.com,SoftLayer,3,1,1
+Victor Nash,victor@mobisolutions.in,MobiSolutions,0,0,1
+Wendy Park,wendy@quantumflux.ai,QuantumFlux,5,3,2
+Xavier Roe,xavier@nexttech.com,NextTech,10,6,4
+Yara Singh,yara@datasphere.io,DataSphere,3,2,1

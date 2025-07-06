@@ -1,0 +1,99 @@
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  background: #fff;
+  padding: 1rem; /* add some padding inside */
+}
+
+.lead-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Inter', sans-serif;
+}
+
+.lead-table th,
+.lead-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.lead-table th {
+  background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+  color: #333;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.lead-table tr:hover {
+  background: #f9fafb;
+  transition: background 0.3s ease;
+}
+
+.lead-table td {
+  font-size: 14px;
+  color: #555;
+}
+
+.segment {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+}
+
+.segment.high {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.segment.medium {
+  background-color: #fef9c3;
+  color: #eab308;
+}
+
+.segment.low {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+/* ============================== */
+/* Dropdown filter styling below! */
+/* ============================== */
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.filter-container label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.filter-container select {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.filter-container select:hover,
+.filter-container select:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.3);
+  outline: none;
+}

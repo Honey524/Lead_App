@@ -1,0 +1,56 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f6fc;
+  color: #333;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f4f8;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type="file"] {
+  cursor: pointer;
+}
+
+/* Suppress ResizeObserver loop warning (Chrome bug) */
+.resize-observer {
+  animation: none !important;
+}
+/* Suppress ResizeObserver loop warning */
+.resize-observer {
+  animation: none !important;
+}
+
+html, body {
+  overflow: auto;
+}
